@@ -1,10 +1,7 @@
 <?php
   $con = mysqli_connect("localhost","root","","test");
-  if($con)
+  if(!$con)
   {
-  	echo "Connected";
-  }
-  else {
-    echo "DB not connected";
+      echo "Connection Fail To DB  ";
   }
 ?>

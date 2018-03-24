@@ -98,7 +98,7 @@ $cat_title = $row_cat['cat_title'];
 </div><!-- row Ends -->
 
 
-<div class="row"><!-- 2 row Starts --> 
+<div class="row"><!-- 2 row Starts -->
 
 <div class="col-lg-12"><!-- col-lg-12 Starts -->
 
@@ -300,7 +300,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div><!-- col-lg-12 Ends -->
 
-</div><!-- 2 row Ends --> 
+</div><!-- 2 row Ends -->
 
 
 
