@@ -1,5 +1,10 @@
 <?php
+  $con = mysqli_connect("localhost","root","","test");
+  if($con)
+  {
 
-$con = mysqli_connect("localhost","root","","ecom_store");
-
+  }
+  else {
+    echo "DB not connected";
+  }
 ?>
